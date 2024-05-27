@@ -1,0 +1,343 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .fs-4 {
+    color: #fafafa;
+    margin-left: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #af0000;
+  }
+  
+  .nav-pills .nav-link {
+    color: #f1eaea;
+  }
+  
+  .nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #ffffff;
+  }
+  
+  /* Product Information Styles */
+  .carousel-item img {
+    max-height: 300px;
+    margin: 0 auto;
+  }
+  
+  .col-md-6 h2 {
+    margin-top: 0;
+  }
+  
+  .col-md-6 p {
+    margin-bottom: 5px;
+  }
+  
+  /* Product Owner Contact Information Styles */
+  .col-md-6 h4 {
+    margin-top: 20px;
+  }
+  
+  /* Style for navigation menu */
+  .navbar {
+    background-color: #f8f9fa; /* Background color */
+  }
+  
+  .nav-link {
+    color: #343a40; /* Text color */
+    font-weight: bold; /* Bold text */
+  }
+  
+  .nav-link:hover {
+    color: #14b7f3; /* Hover color */
+  }
+  
+  
+  
+  
+  /* Additional Styles for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .header .nav-pills {
+      flex-direction: column;
+    }
+  
+    .carousel-item img {
+      max-height: 200px;
+    }
+  
+    .col-md-6 {
+      margin-bottom: 20px;
+    }
+  
+    .container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .col {
+      width: 100%;
+      height: auto;
+      
+    }
+  
+    .card-body {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-item img {
+      max-height: 150px;
+    }
+  
+    .col-md-6 h2 {
+      font-size: 1.5rem;
+    }
+  
+    .col-md-6 p {
+      font-size: 0.875rem;
+    }
+  }
+
+
+  /* product */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-image {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid #fff9f9;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 613px;
+    height: auto;
+    max-height: 433px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+}
+
+.product-card h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #af0000;
+}
+
+.product-card p {
+    color: #888;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-card .price,
+.product-card .quantity,
+.product-card .province {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.product-card button {
+    padding: 8px 6px;
+    border: none;
+    background-color: #af0000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #074601;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-card {
+        padding: 15px;
+    }
+
+    .product-card img {
+        max-width: 100%;
+    }
+
+    .product-card h2 {
+        font-size: 1em;
+    }
+
+    .product-card .price,
+    .product-card .quantity,
+    .product-card .province {
+        font-size: 0.9em;
+    }
+
+    .product-card button {
+        padding: 6px 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+is 613px */
+
+t is 433px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
