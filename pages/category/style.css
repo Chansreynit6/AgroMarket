@@ -186,16 +186,17 @@ h1 {
     text-align: left;
 }
 
-.product-card button {
+.product-card a {
     padding: 8px 6px;
     border: none;
     background-color: #af0000;
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.product-card button:hover {
+.product-card a:hover {
     background-color: #074601;
 }
 
@@ -235,7 +236,7 @@ h1 {
         font-size: 0.9em;
     }
 
-    .product-card button {
+    .product-card a {
         padding: 6px 4px;
     }
 }
