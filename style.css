@@ -1,0 +1,16 @@
+.card-body a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 6px;
+    border: none;
+    background-color: #af0000;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    background-color: #074601;
+}

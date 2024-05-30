@@ -23,7 +23,7 @@ try{
         <p class="price">Price: $ ${product.attributes.price}</p>
         <p class="quantity">Quantity: ${product.attributes.Quantity}</p>
         <p class="province">Province: ${product.attributes.OriginProvince}</p>
-        <a href="../../pages/detail/index.html?categoryid=${product.attributes.productId}">Add to Cart</a>
+        <a href="../../pages/detail/index.html?productid=${product.attributes.productId}">Add to Cart</a>
         </div>
         `;
     }

@@ -16,21 +16,21 @@ async function fetchProductsByCategory(categoryId) {
       // build card in html
 console.log(product.attributes.image.data[0].attributes.url);
       cards += `<div class="col-md-4">
-        <div class="card position-relative">
+        <div class="card position-relative mt-2">
             <img src="${product.attributes.image.data[0].attributes.url}" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">${product.attributes.name}</h5>
                 <p class="card-text">Quantity: ${product.attributes.Quantity}</p>
-                <p class="card-text">Price: ${product.attributes.price}</p>
-                <p class="card-text">Province: ${product.attributes.OriginProvince
-                }</p>
+                <p class="card-text">Price:$ ${product.attributes.price}</p>
+                <p class="card-text">Province: ${product.attributes.OriginProvince}</p>
+                <a href='../../pages/detail/index.html?productid=${product.attributes.productId}'>Add to buy</a>
             </div>
         </div>
     </div>`;
       //Build button view all
 
       button = ` <div class="justify-content-center mt-3 text-center">
-               <a href="./pages/category/index.html?categoryid=${product.attributes.categroy.data.attributes.categoryId}" class="btn btn-primary">View All</a>
+               <a href="../../pages/category/index.html?categoryid=${product.attributes.categroy.data.attributes.categoryId}" class="btn btn-primary">View All</a>
                </div>`;
     }
 
