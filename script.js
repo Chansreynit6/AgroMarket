@@ -17,13 +17,13 @@ async function fetchProductsByCategory(categoryId) {
 console.log(product.attributes.image.data[0].attributes.url);
       cards += `<div class="col-md-4">
         <div class="card position-relative mt-2">
-            <img src="${product.attributes.image.data[0].attributes.url}" class="card-img-top" alt="">
+        <a href='../../pages/detail/index.html?productid=${product.attributes.productId}'><img src="${product.attributes.image.data[0].attributes.url}" class="card-img-top" alt=""></a>
             <div class="card-body">
                 <h5 class="card-title">${product.attributes.name}</h5>
                 <p class="card-text">Quantity: ${product.attributes.Quantity}</p>
                 <p class="card-text">Price:$ ${product.attributes.price}</p>
                 <p class="card-text">Province: ${product.attributes.OriginProvince}</p>
-                <a href='../../pages/detail/index.html?productid=${product.attributes.productId}'>Add to buy</a>
+                <a class='url-link' href='../../pages/detail/index.html?productid=${product.attributes.productId}'>Buy Now</a>
             </div>
         </div>
     </div>`;

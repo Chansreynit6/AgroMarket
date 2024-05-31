@@ -186,7 +186,7 @@ h1 {
     text-align: left;
 }
 
-.product-card a {
+.url-link {
     padding: 8px 6px;
     border: none;
     background-color: #af0000;
@@ -196,7 +196,7 @@ h1 {
     text-decoration: none;
 }
 
-.product-card a:hover {
+.url-link :hover {
     background-color: #074601;
 }
 

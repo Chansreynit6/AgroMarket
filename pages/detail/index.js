@@ -62,7 +62,7 @@ async function getSingleProduct(){
         const productsRelate= products1[i];
            card.innerHTML+=`
            <div class="product-card">
-                  <img src="${productsRelate.attributes.image.data[0].attributes.url}" alt="Grapes">
+           <a href="../../pages/detail/index.html?productid=${productsRelate.attributes.productId}"><img src="${productsRelate.attributes.image.data[0].attributes.url}" alt="Grapes"></a>
                   <h2>${productsRelate.attributes.name}</h2>
                   <p>Price: $ ${productsRelate.attributes.price}</p>
                   <p>Quantity: ${productsRelate.attributes.Quantity}</p>
